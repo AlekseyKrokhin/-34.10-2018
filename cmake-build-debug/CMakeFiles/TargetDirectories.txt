@@ -1,0 +1,3 @@
+C:/Users/kroxi/CLionProjects/Scnorr_project/cmake-build-debug/CMakeFiles/Scnorr_project.dir
+C:/Users/kroxi/CLionProjects/Scnorr_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kroxi/CLionProjects/Scnorr_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
