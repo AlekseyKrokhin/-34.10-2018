@@ -1,7 +1,10 @@
 #include <cstdlib>
 #include <cmath>
+#include <ctime>
+#include <iostream>
 
-int modexp(int x, int y, int N)
+
+auto modexp(int x, int y, int N)
 {
     if (y == 0) return 1;
     int z = modexp(x, y / 2, N);
@@ -47,4 +50,11 @@ auto miller_rabin(int num1, int repeat = 50) {
     return true;
 }
 
-
+int main() {
+    srand(time(NULL));
+    long long a;
+    long long b = pow(2, 1023);
+    long long c = pow(2, 1024) - 1;
+    a = rand() % (b - c) + c;
+    std::cout << b;
+}
